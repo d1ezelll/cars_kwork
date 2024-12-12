@@ -7,6 +7,10 @@
         max-width: 90vw;
     }
 
+    .intro {
+        padding-top: 130px;
+    }
+
     .intro-container {
         max-width: 90vw;
     }
@@ -18,6 +22,10 @@
 
     .footer-container {
         max-width: 90vw;
+    }
+
+    .order-car {
+        right: -15vw;
     }
 
     .order-right-img {
@@ -43,7 +51,30 @@
 }
 
 @media (max-width: 768px) {
-    
+
+    .intro-small-img {
+        display: none;
+    }
+    .about-us-bottom-grid {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .about-us-grid-item {
+        max-width: 80vw;
+    }
+
+    .order-container {
+        align-items: center;
+    }
+
+    .order-contacts {
+        justify-content: space-between;
+    }
+
+    .order-contacts-button {
+        width: 60vw;
+    }
 }
 
 @media (max-width: 480px) {
