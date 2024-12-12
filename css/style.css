@@ -67,6 +67,9 @@
     border-radius: 20px;
     border: none;
     background: linear-gradient(259.09deg, #FFFFFF 0%, #A6A6A6 98.83%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .header-button:hover {
@@ -153,6 +156,9 @@
     border-radius: 20px;
     border: none;
     background: linear-gradient(259.09deg, #FFFFFF 0%, #A6A6A6 98.83%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .intro-button:hover,
 .intro-contact-link:hover {
@@ -448,6 +454,9 @@
     border-radius: 20px;
     border: none;
     background: linear-gradient(259.09deg, #FFFFFF 0%, #A6A6A6 98.83%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .order-contacts-link {
