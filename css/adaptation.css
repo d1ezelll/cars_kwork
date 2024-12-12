@@ -1,0 +1,51 @@
+/* ... (предыдущие стили остаются без изменений) ... */
+
+/* Медиа-запросы для мобильных устройств */
+
+@media (max-width: 1680px) {
+    .header-container {
+        max-width: 90vw;
+    }
+
+    .intro-container {
+        max-width: 90vw;
+    }
+
+    .order-container {
+        max-width: 90vw;
+        z-index: 3;
+    }
+
+    .footer-container {
+        max-width: 90vw;
+    }
+
+    .order-right-img {
+        max-width: 90%;
+        z-index: 1;
+    }
+
+    .about-us-top {
+        max-width: 90vw;
+    }
+    
+    .about-us-grid-item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        max-width: 30vw;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 1420px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
