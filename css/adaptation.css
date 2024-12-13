@@ -160,6 +160,7 @@
 
     .intro-left {
         z-index: 2;
+        row-gap: 15px;
     }
 
     .intro-right {
@@ -204,6 +205,15 @@
 
 @media (max-width: 640px) {
 
+    .intro-title-first {
+        font-size: 24px;
+    }
+
+    .intro-title-second {
+        font-size: 66px;
+        line-height: 70px;
+    }
+
     .about-us-top {
         row-gap: 20px;
     }
@@ -216,7 +226,7 @@
     .about-us-top-text {
         font-size: 14px;
         line-height: 20px;
-        max-width: 320px;
+        max-width: 70vw;
     }
 
     .about-us-bottom-title {
@@ -297,6 +307,15 @@
 }
 
 @media (max-width: 396px) {
+
+    .intro-title-first {
+        font-size: 24px;
+    }
+
+    .intro-title-second {
+        font-size: 58px;
+        line-height: 65px;
+    }
     
     .header-nav-link {
         font-size: 50px;

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
           burgerBtn.textContent = 'Close menu'
       } else {
           headerContacts.style.display = 'none';
-          burgerBtn.textContent = 'Contact Us'
+          burgerBtn.textContent = 'Menu'
       };
   })
 
