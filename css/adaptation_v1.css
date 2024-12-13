@@ -268,36 +268,27 @@
     }
 
     .footer-info {
-        display: grid;
-        grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: auto auto;
-        row-gap: 20px;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 30px;
+    }
+
+    .footer-right {
+        align-items: start;
     }
 
     .footer-addres {
-        max-width: 170px;
+        max-width: 350px;
         display: block;
+    }
+
+    .footer-partners,
+    .footer-socials {
+        column-gap: 20px;
     }
 
     .footer-bilets {
         display: contents;
-    }
-
-    .footer-partners {
-        grid-row: 2;
-        grid-column: 1 / 1;
-        grid-row: 2/2;
-        display: block;
-        flex-wrap: nowrap;
-    }
-
-    .footer-socials {
-        grid-row: 1/1;
-        grid-column: 2 / 2;
-        display: block;
-        flex-wrap: nowrap;
     }
 
     .footer-partners-link,

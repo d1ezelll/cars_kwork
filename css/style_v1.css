@@ -635,6 +635,19 @@
     font-family: Unbounded;
 }
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: end;
+}
+
 .footer-addres {
     font-size: 18px;
     font-weight: 300;
