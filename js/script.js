@@ -3,6 +3,11 @@ document.getElementById('formSend').addEventListener('click', function() {
   }
 );
 
+document.getElementById('formSendSecond').addEventListener('click', function() {
+    document.getElementById('orderForm').reset();
+  }
+);
+
 document.addEventListener('DOMContentLoaded', () => {
   const burgerBtn = document.getElementById('header-button');
   const header = document.querySelector('.header');

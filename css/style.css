@@ -28,6 +28,12 @@
     z-index: 2;
 }
 
+.header-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .header-menu-button span{
     position: absolute;
     width: 30px;
