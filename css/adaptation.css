@@ -117,6 +117,10 @@
       .header.open .header-nav{
         transform: translateX(100%);
       }
+
+      .footer-face .header-nav {
+        display: none;
+      }
 }
 
 @media (max-width: 768px) {
@@ -256,6 +260,11 @@
         grid-column: 2 / 2;
         display: block;
         flex-wrap: nowrap;
+    }
+
+    .footer-partners-link,
+    .footer-socials-link {
+        text-decoration: none;
     }
 }
 
